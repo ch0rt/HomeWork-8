@@ -223,44 +223,6 @@ import Foundation
 //Հուշում`  պետք է օգտագործել նրդրված ցիկլ այսինքն ցիկլ ցիկլի մեջ, օգտագորշել string-ի  \n հատուկ սինվոլը տեքստը կոնսոլում նոր տեղից տպելու ահմար, կարելի է ամեն տողը տպելու համար ունենքլ string տիպի փոփոխական:
 
 
-
-//let a = 7
-//let b = 3
-//
-//// *******
-//var aIterationCount = 0
-//var firstLine:String = ""
-//while aIterationCount < a {
-//    firstLine += "*"
-//    aIterationCount += 1
-//}
-////print(firstLine)
-//
-////*    *
-//var secondIterationCount = 0
-//var secondLine:String = ""
-//while secondIterationCount < a {
-//        if secondIterationCount == 0 || secondIterationCount == a - 1 {
-//    secondLine += "*"
-//} else {
-//    secondLine += " "
-//}
-//    secondIterationCount += 1
-//}
-////print(secondLine)
-//
-//// *******
-//
-//var thirdaIterationCount = 0
-//var thirdLine:String = ""
-//while thirdaIterationCount < a {
-//    thirdLine += "*"
-//    thirdaIterationCount += 1
-//}
-//print(thirdLine)
-
-
-
 //
 //let a = 10
 //let b = 6
