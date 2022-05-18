@@ -157,7 +157,7 @@ import Foundation
 
 //let count = 7
 //var i = 1
-//while i <= count {
+//while i <= count  {
 //    if  i == 1 || i == count
 //    {
 //        print(String.init(repeating: "*", count: count))
@@ -168,4 +168,104 @@ import Foundation
 //    }
 //    i+=1
 //}
+
+
+// example 2
+
+
+//var lineCount = 0
+//
+//while lineCount < 7 {
+//
+//    if lineCount == 6 || lineCount == 0 {
+//
+//        print("*******")
+//    } else {
+//        print("*      *")
+//    }
+//    lineCount += 1
+//}
+
+
+
+
+
+//Home Work 7_8
+//
+//Հայտարարել հաստատուներ a , b Int տիպերի
+//
+//while  ցիկլի միջոցով տպել  հետևյալ նկարը որտեղ հորիզոնական աստղիկների քանակը վերցվում է a  -ից իսկ ուղղահայացներինը  b-ից
+//
+//օրինակ եթե a = 7 իսկ b = 4 պետք է տպել նման նկար
+//
+//*******
+//*       *
+//*       *
+//*******
+//Հուշում`  պետք է օգտագործել նրդրված ցիկլ այսինքն ցիկլ ցիկլի մեջ, օգտագորշել string-ի  \n հատուկ սինվոլը տեքստը կոնսոլում նոր տեղից տպելու ահմար, կարելի է ամեն տողը տպելու համար ունենքլ string տիպի փոփոխական:
+
+
+
+//let a = 7
+//let b = 3
+//
+//// *******
+//var aIterationCount = 0
+//var firstLine:String = ""
+//while aIterationCount < a {
+//    firstLine += "*"
+//    aIterationCount += 1
+//}
+////print(firstLine)
+//
+////*    *
+//var secondIterationCount = 0
+//var secondLine:String = ""
+//while secondIterationCount < a {
+//        if secondIterationCount == 0 || secondIterationCount == a - 1 {
+//    secondLine += "*"
+//} else {
+//    secondLine += " "
+//}
+//    secondIterationCount += 1
+//}
+////print(secondLine)
+//
+//// *******
+//
+//var thirdaIterationCount = 0
+//var thirdLine:String = ""
+//while thirdaIterationCount < a {
+//    thirdLine += "*"
+//    thirdaIterationCount += 1
+//}
+//print(thirdLine)
+
+
+
+//
+let a = 10
+let b = 6
+var bInterationCount = 0
+while bInterationCount < b {
+    
+    var aIterationCount = 0
+    var line:String = ""
+    
+    while aIterationCount < a {
+       if bInterationCount == 0 || bInterationCount == b - 1 {
+            line += "*"
+       } else if aIterationCount == 0 || aIterationCount == a - 1 {
+           line += "*"
+       } else {
+           line += " "
+       }
+       
+        aIterationCount += 1
+    }
+    
+    print(line)
+    
+    bInterationCount += 1
+}
 
