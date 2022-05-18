@@ -139,7 +139,24 @@ import Foundation
 //}
 //print(array)
 
+//example 3 masivi mej
 
+//var arr = [4, 54, 36, 127]
+//
+//for  i in arr {
+//    
+//    var item = i
+//    var myArr: [Int] = [ ]
+//
+//    while item != 0 {
+//
+//        let c = item % 10
+//        item = item / 10
+//        myArr.insert(c, at: myArr.startIndex)
+//    }
+//    print(myArr)
+//}
+//print("\n")
 
 
 
@@ -244,28 +261,27 @@ import Foundation
 
 
 //
-let a = 10
-let b = 6
-var bInterationCount = 0
-while bInterationCount < b {
-    
-    var aIterationCount = 0
-    var line:String = ""
-    
-    while aIterationCount < a {
-       if bInterationCount == 0 || bInterationCount == b - 1 {
-            line += "*"
-       } else if aIterationCount == 0 || aIterationCount == a - 1 {
-           line += "*"
-       } else {
-           line += " "
-       }
-       
-        aIterationCount += 1
-    }
-    
-    print(line)
-    
-    bInterationCount += 1
-}
-
+//let a = 10
+//let b = 6
+//var bInterationCount = 0
+//while bInterationCount < b {
+//
+//    var aIterationCount = 0
+//    var line:String = ""
+//
+//    while aIterationCount < a {
+//       if bInterationCount == 0 || bInterationCount == b - 1 {
+//            line += "*"
+//       } else if aIterationCount == 0 || aIterationCount == a - 1 {
+//           line += "*"
+//       } else {
+//           line += " "
+//       }
+//
+//        aIterationCount += 1
+//    }
+//
+//    print(line)
+//
+//    bInterationCount += 1
+//}
