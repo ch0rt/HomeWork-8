@@ -106,22 +106,22 @@ import Foundation
 
 // example 1
 
-var newArray = [Int]()
-var array = [4, 54, 36, 127]
-var index = 0
-while index < array.count {
-    var num = array[index]
-    var arrayInt = [Int]()
-    
-    while num != 0  {
-        let c = num % 10
-        num = num / 10
-        arrayInt.insert(c, at: 0)
-    }
-    newArray.append(contentsOf: arrayInt)
-    index += 1
-}
-print(newArray)
+//var newArray = [Int]()
+//var array = [4, 54, 36, 127]
+//var index = 0
+//while index < array.count {
+//    var num = array[index]
+//    var arrayInt = [Int]()
+//
+//    while num != 0  {
+//        let c = num % 10
+//        num = num / 10
+//        arrayInt.insert(c, at: 0)
+//    }
+//    newArray.append(contentsOf: arrayInt)
+//    index += 1
+//}
+//print(newArray)
 
 
 //  example 2
@@ -286,3 +286,4 @@ print(newArray)
 //
 //    bInterationCount += 1
 //}
+
