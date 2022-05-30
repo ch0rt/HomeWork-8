@@ -176,13 +176,14 @@ import Foundation
 //let count = 7
 //var i = 1
 //while i <= count  {
+//
 //    if  i == 1 || i == count
 //    {
 //        print(String.init(repeating: "*", count: count))
 //    }
 //    else
 //    {
-//        print(String.init(repeating: "*", count: 1) + String.init(repeating: " ", count: 8) + String.init(repeating: "*", count: 1))
+//        print(String.init(repeating: "*", count: 1) + String.init(repeating: " ", count: 7) + String.init(repeating: "*", count: 1))
 //    }
 //    i+=1
 //}
@@ -191,6 +192,9 @@ import Foundation
 // example 2
 
 
+//let count = 7
+//var i = 1
+//
 //var lineCount = 0
 //
 //while lineCount < 7 {
@@ -248,4 +252,5 @@ import Foundation
 //
 //    bInterationCount += 1
 //}
+
 
