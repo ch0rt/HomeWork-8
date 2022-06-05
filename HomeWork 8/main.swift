@@ -179,7 +179,7 @@ import Foundation
 //
 //    if  i == 1 || i == count
 //    {
-//        print(String.init(repeating: "*", count: count))
+//        print(String.init(repeating: "*", count: 7))
 //    }
 //    else
 //    {
@@ -192,20 +192,17 @@ import Foundation
 // example 2
 
 
-//let count = 7
-//var i = 1
+//var lineCount = 7
 //
-//var lineCount = 0
+//while lineCount != 0 {
 //
-//while lineCount < 7 {
-//
-//    if lineCount == 6 || lineCount == 0 {
+//    if lineCount == 7 || lineCount == 1 {
 //
 //        print("*******")
 //    } else {
 //        print("*      *")
 //    }
-//    lineCount += 1
+//    lineCount -= 1
 //}
 
 
@@ -240,7 +237,7 @@ import Foundation
 //       if bInterationCount == 0 || bInterationCount == b - 1 {
 //            line += "*"
 //       } else if aIterationCount == 0 || aIterationCount == a - 1 {
-//           line += "*"
+//           line += "*"  //
 //       } else {
 //           line += " "
 //       }
@@ -252,5 +249,3 @@ import Foundation
 //
 //    bInterationCount += 1
 //}
-
-
